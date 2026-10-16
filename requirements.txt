@@ -1,0 +1,20 @@
+# Sistema de Ordens de Serviço — Assistência Técnica
+# Instalação: pip install -r requirements.txt
+
+# Banco de dados
+supabase>=2.0
+
+# Painel do gerente (app_streamlit.py)
+# >=1.38 por causa do st.bar_chart(horizontal=True)
+streamlit>=1.38
+pandas>=2.0
+
+# Formulário público (app_gradio.py)
+# >=6.0 porque theme/css são passados no launch()
+gradio>=6.0
+
+# Credenciais via arquivo .env
+python-dotenv>=1.0
+
+# Usa os certificados do Windows (rede corporativa com proxy SSL)
+truststore>=0.9
